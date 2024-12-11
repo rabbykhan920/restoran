@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restoran</title>
+    <!-- links -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- links -->
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+
+    
+  <!-- google fonts -->
+   <!-- font awsome -->
+   <script src="https://kit.fontawesome.com/b584887cdf.js" crossorigin="anonymous"></script>
+   <!-- font awsome -->
+    <style>
+     .font-hebo{
+        font-family: "Heebo", sans-serif;
+     }
+    </style>
+     <style>
+       /* smooth scrolling for entire document  */
+       html{
+        scroll-behavior: smooth;
+       }
+  </style>  
+</head>
+<body class="font-hebo">
+    <!-- header start -->
+    <header style="background-image: url(img/bg-hero.jpg);" class="md:container md:mx-auto ">
+     <!-- navbar start -->
+     <nav class="opacity-80 bg-[#0F1726]">
+     
+        <div class="navbar text-white">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a href="#" class="text-base font-bold text-[#FEA116] hover:bg-transparent hover:text-[#FEA116]">Home</a></li>
+                  <li><a href="#" class="text-base font-bold hover:bg-transparent hover:text-[#FEA116]">About</a></li>
+                  <li><a href="#" class="text-base font-bold hover:bg-transparent hover:text-[#FEA116]">Service</a></li>
+                  <li><a href="#" class="text-base font-bold hover:bg-transparent hover:text-[#FEA116]">Menu</a></li>
+                  <li><a href="#" class="text-base font-bold hover:bg-transparent hover:text-[#FEA116]">Pages</a></li>
+                  <li><a href="#" class="text-base font-bold hover:bg-transparent hover:text-[#FEA116]">Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn md:text-4xl text-xl text-[#FEA116] bg-transparent shadow-none border-none hover:bg-transparent font-bold">Restoran</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a href="#" class="text-base font-bold text-[#FEA116] hover:bg-transparent hover:text-[#FEA116]">Home</a></li>
+                <li><a href="#" class="text-base font-bold hover:bg-transparent hover:text-[#FEA116]">About</a></li>
+                <li><a href="#" class="text-base font-bold hover:bg-transparent hover:text-[#FEA116]">Service</a></li>
+                <li><a href="#" class="text-base font-bold hover:bg-transparent hover:text-[#FEA116]">Menu</a></li>
+                <li><a href="#" class="text-base font-bold hover:bg-transparent hover:text-[#FEA116]">Pages</a></li>
+                <li><a href="#" class="text-base font-bold hover:bg-transparent hover:text-[#FEA116]">Contact</a></li>
+
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a href="index.html" class="btn md:text-base text-xs bg-[#FEA116] text-white border-none hover:bg-[#FEAB2F]">BOOK A TABLE</a>
+            </div>
+          </div>  
+         
+    </nav>
+     <!-- navbar end -->
+    <!-- banner -->
+    
+    <div class="hero lg:py-20 md:py-10 py-7 opacity-80 bg-[#0F1726] text-white lg:gap-48">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <img
+            src="img/hero.png"
+            class="md:max-w-sm" />
+          <div>
+            <h1 class="lg:text-5xl md:text-3xl text-xl font-bold">Enjoy Our <br>
+                Delicious Meal</h1>
+            <p class="md:py-6 py-3">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et <br> eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore <br> erat amet
+            </p>
+            <a href="#" class="btn bg-[#FEA116] text-white border-none hover:bg-[#FEAB2F]">BOOK A TABLE</a>
+        </div>  
+          </div>
+        </div>
+      </div>
+
+    <!-- banner -->
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main class="md:container md:mx-auto">
+      <!-- facilities -->
+      <section class="lg:my-24 md:my-16 my-8">
+      <!-- items -->
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+     <!-- card-1 -->
+     <div class="card bg-base-100 shadow-xl hover:bg-[#FEA116] hover:text-white">
+       
+        <div class="card-body">
+            <i class="fa-solid fa-user-tie text-5xl"></i>
+          <h2 class="card-title md:mt-6 mt-3">Master Chefs</h2>
+          <p>Diam elitr kasd sed at elitr sed <br> ipsum justo dolor sed clita amet <br> diam</p>
+         
+        </div>
+      </div>
+     <!-- card-1 -->
+     <!-- card-2 -->
+     <div class="card bg-base-100 shadow-xl hover:bg-[#FEA116] hover:text-white">
+       
+        <div class="card-body">
+            <i class="fa-solid fa-utensils text-5xl"></i>
+          <h2 class="card-title md:mt-6 mt-3">Quality Food</h2>
+          <p>Diam elitr kasd sed at elitr sed <br> ipsum justo dolor sed clita amet <br> diam</p>
+         
+        </div>
+      </div>
+     <!-- card-2 -->
+     <!-- card-3 -->
+     <div class="card bg-base-100 shadow-xl hover:bg-[#FEA116] hover:text-white">
+       
+        <div class="card-body">
+            <i class="fa-solid fa-cart-shopping text-5xl"></i>
+          <h2 class="card-title md:mt-6 mt-3">Online Order</h2>
+          <p>Diam elitr kasd sed at elitr sed <br> ipsum justo dolor sed clita amet <br> diam</p>
+         
+        </div>
+      </div>
+     <!-- card-3 -->
+     <!-- card-4 -->
+     <div class="card bg-base-100 shadow-xl hover:bg-[#FEA116] hover:text-white">
+       
+        <div class="card-body">
+            <i class="fa-solid fa-headset text-5xl"></i>
+          <h2 class="card-title md:mt-6 mt-3">Master Chefs</h2>
+          <p>Diam elitr kasd sed at elitr sed <br> ipsum justo dolor sed clita amet <br> diam</p>
+         
+        </div>
+      </div>
+     <!-- card-4 -->
+          
+    </div>
+          <!-- items -->
+    </section>
+      <!-- facilities -->
+      <!-- About Us -->
+      <section class="lg:my-24 md:my-16 my-8">
+     <!-- items -->
+     <div class="hero">
+        <div class="hero-content flex-col lg:flex-row">
+            <div class="grid md:grid-cols-2 grid-cols-1 gap-4">
+              <img class="" src="img/about-1.jpg" alt="img">
+              <img class="md:mr-12 mt-12 md:w-52" src="img/about-2.jpg" alt="img">
+              <img class="md:ml-7 md:w-52" src="img/about-3.jpg" alt="img">
+              <img src="img/about-4.jpg" alt="img">
+            </div>
+          <div>
+            <h1 class="lg:text-5xl md:text-3xl text-xl font-bold">Welcome to <i class="fa-solid fa-utensils text-[#FEA116]"></i> Restoran</h1>
+            <p class="md:py-6 py-3">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.
+            </p>
+            <p class="md:py-6 py-3">
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+            </p>
+            <a href="#" class="btn bg-[#FEA116] text-white border-none hover:bg-[#FEAB2F]">READ MORE</a>
+          </div>
+        </div>
+      </div>
+     <!-- items -->
+    </section>
+      <!-- About Us -->
+     <!-- Food Menu -->
+     <section class="lg:my-24 md:my-16 my-8">
+       <!-- heading -->
+       <div class="text-center md:mb-10 mb-5">
+        <h1 class="lg:text-5xl md:text-3xl text-xl font-bold">Our Master Chefs</h1>
+
+      </div>
+     <!-- heading -->
+      <!-- menu -->
+      <div class="grid md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+          <!-- item-1 -->
+        <div class="flex gap-3">
+        <div class="">
+            <img src="img/menu-1.jpg" alt="img">
+        </div>
+        <div class="">
+
+            <h2 class="card-title py-1 border-b">Chicken Burger</h2>
+            <p class="text-gray-500 text-sm mt-3">Ipsum ipsum clita erat amet dolor justo diam</p>
+        </div>
+         <div class="">
+            <h2 class="card-title text-[#FEA116] font-bold">$115</h2>
+         </div>
+
+        </div>
+          <!-- item-1 -->       
+          <!-- item-2 -->     
+          <div class="flex gap-3">
+          <div class="">
+              <img class="w-full" src="img/menu-2.jpg" alt="img">
+          </div>
+          <div class="">
+  
+              <h2 class="card-title py-1 border-b">Chicken Burger</h2>
+              <p class="text-gray-500 text-sm mt-3">Ipsum ipsum clita erat amet dolor justo diam</p>
+          </div>
+           <div class="">
+              <h2 class="card-title text-[#FEA116] font-bold">$115</h2>
+           </div>
+  
+          </div>
+          <!-- item-2 -->
+          <!-- item-3 -->
+          <div class="flex gap-3">
+            <div class="">
+                <img class="w-full" src="img/menu-3.jpg" alt="img">
+            </div>
+            <div class="">
+    
+                <h2 class="card-title py-1 border-b">Chicken Burger</h2>
+                <p class="text-gray-500 text-sm mt-3">Ipsum ipsum clita erat amet dolor justo diam</p>
+            </div>
+             <div class="">
+                <h2 class="card-title text-[#FEA116] font-bold">$115</h2>
+             </div>
+    
+            </div>
+          <!-- item-3 -->
+          <!-- item-4 -->
+          <div class="flex gap-3">
+            <div class="">
+                <img class="w-full" src="img/menu-4.jpg" alt="img">
+            </div>
+            <div class="">
+    
+                <h2 class="card-title py-1 border-b">Chicken Burger</h2>
+                <p class="text-gray-500 text-sm mt-3">Ipsum ipsum clita erat amet dolor justo diam</p>
+            </div>
+             <div class="">
+                <h2 class="card-title text-[#FEA116] font-bold">$115</h2>
+             </div>
+    
+            </div>
+          <!-- item-4 -->
+          <!-- item-5 -->
+          <div class="flex gap-3">
+            <div class="">
+                <img class="w-full" src="img/menu-5.jpg" alt="img">
+            </div>
+            <div class="">
+    
+                <h2 class="card-title py-1 border-b">Chicken Burger</h2>
+                <p class="text-gray-500 text-sm mt-3">Ipsum ipsum clita erat amet dolor justo diam</p>
+            </div>
+             <div class="">
+                <h2 class="card-title text-[#FEA116] font-bold">$115</h2>
+             </div>
+    
+            </div>
+          <!-- item-5 -->
+          <!-- item-6 -->
+          <div class="flex gap-3">
+            <div class="">
+                <img class="w-full" src="img/menu-6.jpg" alt="img">
+            </div>
+            <div class="">
+    
+                <h2 class="card-title py-1 border-b">Chicken Burger</h2>
+                <p class="text-gray-500 text-sm mt-3">Ipsum ipsum clita erat amet dolor justo diam</p>
+            </div>
+             <div class="">
+                <h2 class="card-title text-[#FEA116] font-bold">$115</h2>
+             </div>
+    
+            </div>
+          <!-- item-6 -->
+          <!-- item-7 -->
+          <div class="flex gap-3">
+            <div class="">
+                <img class="w-full" src="img/menu-7.jpg" alt="img">
+            </div>
+            <div class="">
+    
+                <h2 class="card-title py-1 border-b">Chicken Burger</h2>
+                <p class="text-gray-500 text-sm mt-3">Ipsum ipsum clita erat amet dolor justo diam</p>
+            </div>
+             <div class="">
+                <h2 class="card-title text-[#FEA116] font-bold">$115</h2>
+             </div>
+    
+            </div>
+          <!-- item-7 -->
+          <!-- item-8 -->
+          <div class="flex gap-3">
+            <div class="">
+                <img class="w-full" src="img/menu-8.jpg" alt="img">
+            </div>
+            <div class="">
+    
+                <h2 class="card-title py-1 border-b">Chicken Burger</h2>
+                <p class="text-gray-500 text-sm mt-3">Ipsum ipsum clita erat amet dolor justo diam</p>
+            </div>
+             <div class="">
+                <h2 class="card-title text-[#FEA116] font-bold">$115</h2>
+             </div>
+    
+            </div>
+          <!-- item-8 -->
+
+
+        </div>
+      <!-- menu -->
+    </section>
+     <!-- Food Menu -->
+     <!-- Our Master Chefs -->
+     <section class="lg:my-24 md:my-16 my-8">
+     <!-- heading -->
+      <div class="text-center md:mb-10 mb-5">
+        <h1 class="lg:text-5xl md:text-3xl text-xl font-bold">Our Master Chefs</h1>
+
+      </div>
+     <!-- heading -->
+       <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+      <!-- chef-1 -->
+      <div class="card bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img
+            src="img/team-1.jpg"
+            alt="img"
+            class="rounded-full" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Full Name</h2>
+          <p>Designation</p>
+        </div>
+      </div>
+      <!-- chef-1 -->
+      <!-- chef-2 -->
+      <div class="card bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img
+            src="img/team-2.jpg"
+            alt="img"
+            class="rounded-full" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Full Name</h2>
+          <p>Designation</p>
+        </div>
+      </div>
+      <!-- chef-2 -->
+      <!-- chef-3 -->
+      <div class="card bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img
+            src="img/team-3.jpg"
+            alt="img"
+            class="rounded-full" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Full Name</h2>
+          <p>Designation</p>
+        </div>
+      </div>
+      <!-- chef-3 -->
+      <!-- chef-4 -->
+      <div class="card bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img
+            src="img/team-4.jpg"
+            alt="img"
+            class="rounded-full" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Full Name</h2>
+          <p>Designation</p>
+        </div>
+      </div>
+      <!-- chef-4 -->
+      </div>
+    </section>
+     <!-- Our Master Chefs -->
+       <!-- Our Clients Say!!! -->
+      <section class="lg:my-24 md:my-16 my-8">
+        <!-- heading -->
+        <div class="text-center md:mb-10 mb-5">
+          <h1 class="lg:text-5xl md:text-3xl text-xl font-bold">Our Clients Say!!!</h1>
+        </div>
+       <!-- heading -->
+        <!-- clints -->
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+        <!-- clint-1 -->
+        <div class="card bg-base-100 shadow-xl">
+          <div class="card-body">
+            <p class="text-[#9A9A9A]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident maiores consectetur aut doloribus? Deleni</p>
+            <div class="flex mt-5">
+            <div class="w-12 flex">
+              <img class="rounded-full" src="img/testimonial-1.jpg" />
+             
+            </div> 
+            <h3 class="card-title ml-7">Clint Name</h3>
+          </div>
+          <p class="ml-20 text-[#9A9A9A] ">Profession</p>
+        </div>
+      </div>
+        <!-- clint-1 -->
+        <!-- clint-2 -->
+        <div class="card bg-[#FEA116] shadow-xl text-white">
+          <div class="card-body">
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident maiores consectetur aut doloribus? Deleni</p>
+            <div class="flex mt-5">
+            <div class="w-12 flex">
+              <img class="rounded-full" src="img/testimonial-2.jpg" />
+             
+            </div> 
+            <h3 class="card-title ml-7">Clint Name</h3>
+          </div>
+          <p class="ml-20">Profession</p>
+        </div>
+      </div>
+        <!-- clint-2 -->
+        <!-- clint-3 -->
+        <div class="card bg-base-100 shadow-xl">
+          <div class="card-body">
+            <p class="text-[#9A9A9A]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident maiores consectetur aut doloribus? Deleni</p>
+            <div class="flex mt-5">
+            <div class="w-12 flex">
+              <img class="rounded-full" src="img/testimonial-3.jpg" />
+             
+            </div> 
+            <h3 class="card-title ml-7">Clint Name</h3>
+          </div>
+          <p class="ml-20 text-[#9A9A9A] ">Profession</p>
+        </div>
+      </div>
+        <!-- clint-3 -->
+          
+        </div>
+        <!-- clints -->
+      </section>
+       <!-- Our Clients Say!!! -->
+    </main>
+    <!-- main end -->
+    <!-- footer -->
+    <footer class="footer bg-[#0F172B] text-white text-base-content p-10">
+      <nav>
+        <h6 class="footer-title">Company</h6>
+        <a class="link link-hover">About Us</a>
+        <a class="link link-hover">Contact Us/a>
+        <a class="link link-hover">Reservation</a>
+        <a class="link link-hover">Private policy</a>
+        <a class="link link-hover">Terms & Condition</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Contact</h6>
+        <a class="link link-hover"><i class="fa-solid fa-location-dot mr-2"></i>123 Street, New York, USA</a>
+        <a class="link link-hover"><i class="fa-solid fa-phone mr-2"></i>+012 345 67890</a>
+        <a class="link link-hover"><i class="fa-solid fa-envelope mr-2"></i>info@example.com</a>
+        <div class="">
+          <span><a href="#"><i class="fa-brands fa-twitter"></i></a></span>
+          <span><a href="#"><i class="fa-brands fa-facebook ml-2"></i></a></span>
+          <span><a href="#"><i class="fa-brands fa-youtube ml-2"></i></a></span>
+          <span><a href="#"><i class="fa-brands fa-linkedin ml-2"></i></a></span>
+        </div>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Opening</h6>
+        <a class="link link-hover">Monday - Saturday</a>
+        <a class="link link-hover">09AM - 09PM</a>
+        <a class="link link-hover">Sunday</a>
+        <a class="link link-hover">10AM - 08PM</a>
+      </nav>
+      <form>
+        <h6 class="footer-title">Newsletter</h6>
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text text-white">Dolor amet sit justo amet elitr clita <br>   ipsum elitr est.</span>
+          </label>
+          <div class="join">
+            <input
+              type="text"
+              placeholder="Your email"
+              class="input input-bordered join-item" />
+            <button class="btn text-white bg-[#FEA116] hover:bg-[#FEAB2F] border-none join-item">SIGNUP</button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
+    
+    
+    <!-- footer -->
+</body>
+</html>
